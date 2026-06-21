@@ -151,11 +151,21 @@ header {
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
+
+/* FIX: Ajustes al footer para que tome el 100% de la pantalla */
 footer {
 	background-color: #FFDE22;
 	padding-top: 60px;
-	padding-bottom: 60PX;
+	padding-bottom: 60px;
+	display: block; 
+	width: 100%;
+	box-sizing: border-box;
 }
+
+footer a {
+	text-decoration: none;
+}
+
 .intro {
 	display: inline-block;
 	background-color: #FFDE22;
@@ -209,6 +219,7 @@ footer {
 	line-height: 22px;
 	text-align: center;
 }
+} /* FIX: Llave de cierre que faltaba en tu código original */
 
 
 /* Small Tablets */
